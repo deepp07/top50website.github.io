@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #3498db; /* Main color */
+    --secondary-color: #2ecc71; /* Secondary color */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    font-size: 16px; /* Font size */
+}
+
+#header {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center vertically */
+    background-color: var(--primary-color); /* Background color for header */
+    color: #fff; /* Text color for header */
+    padding: 20px; /* Padding */
+}
+
+#header img.left {
+    margin-right: auto; /* Push the image to left */
+}
+
+#header img.right {
+    margin-left: auto; /* Push the image to right */
+}
+
+#header h1 {
+    text-align: center; /* Center the text */
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for menu links */
+    padding: 10px 15px;
+}
+
+.menu a:hover {
+    background-color: var(--secondary-color); /* Change background color on hover */
+}
+
+#content {
+    text-align: center;
+    padding: 20px;
+}
+
+#sidebar {
+    background-color: #f2f2f2; /* Background color */
+    padding: 20px;
+    text-align: center;
+}
+
+#footer {
+    background-color: var(--primary-color); /* Background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer img.right {
+    margin-left: auto; /* Push the image to the right */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%; /* Make table fill its container */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: var(--primary-color); /* Background color*/
+    color: #fff; 
+    padding: 10px; 
+}
+
+td {
+    border: 1px solid #ddd; /* Border around table cells */
+    padding: 10px; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate background color for even rows */
+}
+
+caption {
+    font-size: 25px;
+    font-weight: bold;
+}

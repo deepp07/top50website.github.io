@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Top 50 Website">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Deep Patel">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGWLZ6FX6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TGWLZ6FX6B');
+</script>
+
+    <body>
+        <header id="header">
+            <!--add path for homepage on logo icon and search bar for search icon-->
+                <img src="images/logo.png" alt="left image" class="left" width="75" height="75">
+                <h1>Top 50 Songs and Artists This Week</h1>
+                <img src="images/search_icon.png" alt="right image" class="right" width="75" height="75">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="top50artists.html">Top 50 Artists</a></li>
+                    <li><a href="top50songs.html">Top 50 Songs</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="content">
+            <div>
+                <img src="images/spotify_logo.png" alt="spotify_logo" width="250" height="85">
+                <h2>Introduction</h2>
+                    <p>Welcome to this week’s Top 50! With new artists on the come up 
+                        every week and one genre taking over another, this website will give you all you need to view the trends in music every 
+                        week. All over the United States there are people listening to all sorts of music, and this website will allow you to 
+                        track the Top 50 songs and artists across the nation. Click on the About Page to see our mission statement, meet our team, 
+                        and view job listings. Click on the Top 50 Songs to view the hottest track in the US today. And click on the Top 50 Artists 
+                        to see who’s taking over the country with their music.</p>        
+            </div>
+        </main>
+
+        <aside id="sidebar">
+            <!--1989 (Taylor's Version)-->
+            <img src="images/1989.jpg" alt="1989" width="150" height="150">
+            <!--Zach Bryan-->
+            <img src="images/zach_bryan.png" alt="zach_bryan" width="150" height="150">
+            <img src="images/american_dream.jpeg" alt="american_dream" width="150" height="150">
+            <img src="images/for_all_the_dogs.png" alt="for_all_the_dogs" width="150" height="150">
+            <img src="images/utopia.webp" alt="utopia" width="150" height="150">
+        </aside>
+
+        <footer id="footer">
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <input type="submit" value="Submit">
+            </form>
+            <p>COPYRIGHT TOP 50 LLC 2024</p>
+            <img src="images/logo.png" alt="logo" class="right" width="75" height="75">
+        </footer>
+
+    </body>
+</html>
